@@ -10,7 +10,7 @@
   <img src="https://visitcount.itsvg.in/api?id=Delowar-Designer&label=Profile%20Views%20Delowar-Designer&color=3&icon=0&pretty=true" />  
   <p align="center"> <a href="" target="_blank" rel="noreferrer"> </a> 
 
-<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="200" height="200"/> </a> </p>
+<p align="center"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="200" height="200"/> </a> </p>
 
 
  # Hello Delowar Hossan   
