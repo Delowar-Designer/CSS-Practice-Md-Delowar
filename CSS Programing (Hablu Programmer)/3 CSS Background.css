@@ -1,0 +1,16 @@
+h1{
+    color:red;
+    background-color:green;
+}
+
+body{
+    background-color: blanchedalmond;
+    background-image: url(idea.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+p{
+    color: rgb(36, 26, 36);
+}
