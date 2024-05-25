@@ -1,0 +1,15 @@
+a{
+    color:red;
+    text-decoration:none;
+    background-color: rgb(24, 231, 162);
+    font-size: 50px;
+    padding:5px 15px;
+    border: 5px solid greenyellow;
+}
+a:hover{
+    color:white;
+    background-color: black;
+}
+a:active{
+    color:yellow;
+}
