@@ -1,0 +1,23 @@
+ .table1,.th1,.td1{
+    border: 5px solid teal;
+    border-collapse: collapse;
+    text-align: left;
+ }
+ .table1{
+    width: 100%;
+ }
+ .th1, .td1{
+    color:blueviolet;
+ }
+ 
+ .table2, td,th{
+    border: 5px solid rgb(18, 197, 63);
+    border-collapse: collapse;
+    text-align: left;
+ }
+ #table2{
+    width: 100%;
+ }
+ th,td{
+    color:blue
+ }
