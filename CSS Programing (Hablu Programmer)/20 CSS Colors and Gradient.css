@@ -1,0 +1,24 @@
+h1{
+    color:blue;
+}
+h2{
+    color:rgb(134, 53, 226, 0.4)
+}
+p{
+    color: #A3CB38;
+}
+box{
+    height: 400px;
+    width: 400px;
+    background:linear-gradient(red, green,black);
+}
+box1{
+    height: 400px;
+    width: 400px;
+    background:linear-gradient(30deg, rgba(255,0,0), green);
+}
+.dox2{
+    height: 400px;
+    width: 400px;
+    background:repeating-radial-gradient(red, green);
+}
