@@ -1,123 +1,148 @@
 body{
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    background-color: azure;
-}
-/* Header Start */
-header{
-    width: 100%;
-    background-color: hsla(313, 75%, 89%, 0.438);
-    color: brown;
-    display: flex;
-}
-.logo{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
-    font-weight: bold;
-    margin-left: 20px;
-    margin-top: 10px;
-    padding: 10px;
 }
-.navbar{
+section{
+    position: relative;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 300px;
+    min-height: 100vh;
 }
-.navbar ul{
-    list-style: none;
-    margin-top: 2%;
+section header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
 }
-.navbar ul li{
-    background-color: rgba(137, 248, 211, 0.379);
-    width: 170px;
-    border: 1px solid gray;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    float: left;
-    color: lightcoral;
-    font-size: 16px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-.navbar ul li a{
-    text-decoration: none;
-    color: blueviolet;
-    text-align: center;
+section header ul{
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-.navbar ul li:hover{
-    background-color: rgba(100, 148, 237, 0.397);
-    transform: all ease-in 0.5s;
+section header ul li{
+    list-style: none;
+    margin-left: 20px;
 }
-.navbar ul ul{
-    display: none;
+section header ul li a{
+    color: #111;
+    text-decoration: none;
+    font-size: 13px;
 }
-.navbar ul li:hover > ul{
-    display: block;
-}
-/* Header End */
-/* Form Start */
-.form1{
-    background-color: crimson;
-    color: white;
-    text-align: center;
-    font-size: 40px;
-    margin: 0 auto;
-    width: fit-content;
-    height: fit-content;
-    padding: 30px 80px;
-    margin-top: 30px;
-    border-radius: 10%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
-}
-.form1 input{
-    padding: 5px 50px;
-    border-color: rgb(50, 148, 205);
-    border-radius: 50px;
-}
-.form1 .btn{
+section header ul li button{
+    background: #4584ef;
+    border: none;
+    outline: none;
+    padding: 8px 14px;
+    color: #fff;
+    font-size: 14px;
     font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
 }
-
-
-/* Form end */
-
-/* Header Start */
-footer{
+section .main{
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section .main .searchbox{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+section .main .searchbox .search{
+    width: 100%;
+    padding: 13px;
+    padding-left: 45px;
+    padding-right: 60px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+}
+section .main .searchbox .icons{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    padding: 12px 20px;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
+}
+section .main .buttons{
+    margin-top: 20px;
+}
+section .main .buttons button{
+    margin: 0 5px;
+    padding: 12px 20px;
+    color: #555;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 1px solid transparent;
+    outline: none;
+}
+section .main .buttons button:hover{
+    border-radius: 1px solid #ccc;
+}
+section .main .lang{
+    margin-top: 20px;
+}
+section .footer{
     position: absolute;
     bottom: 0;
-    text-align: center;
-    background-color: beige;
+    left: 0;
     width: 100%;
-    color: rgba(232, 34, 196, 0.797);
+    background: #f2f2f2;
 }
-.name h2{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 50px;
+section .footer .row{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
 }
-.text p{
-    width: 600px;
-    text-align: center;
-    margin: 0 auto;
-    position: relative;
-    top: -35px;
+section .footer .row ul{
+    display: flex;
 }
-.icon i{
-    font-size: 45px;
-    position: relative;
-    top: -20px;
-    padding: 10px;
+section .footer .row ul li{
+    list-style: none;
 }
-.copy{
-    height: 50px;
-    width: 100%;
-    background-color: rgb(174, 244, 234);
-    line-height: 50px;
-    font-size: 25px;
+section .footer .row ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #5f6368;
+    margin-right: 25px;
+}
+/*Desktop*/
+@media (min-width:1024px){
+
+}
+/*Tablet view*/
+@media (min-width:769px) and (max-width:1023px){
+    section header ul li button{
+        background-color: aqua;
+    }
 }
 
+/*Mobile view*/
+@media (max-width:768px){
+    section .main .searchbox .search{
+        width: 70%;
+    }
+    section .main .searchbox .icons{
+        width: 84%;
+    }
+    section .footer .row ul{
+        display: block;
+    }
+    section header ul li button{
+        background-color: rgba(188, 108, 244, 0.441);
+    }
+}
