@@ -1,0 +1,42 @@
+/*h1{
+    background-color: grey;
+}
+h1{
+    background-color: rgb(202, 40, 40);
+}
+
+#heading {
+    background-color: blue;
+}
+
+.heading {
+    background-color: green;
+}*/
+/* specificity calculator */
+/* a=number of id */
+/* b=number of class, pseduo classes, attributes */
+/* c=number of elements, pesudo elements*/
+/* a=0 b=0 c=1 == 001*/
+h1{
+    background-color: brown;
+}
+/* a=0 b=0 c=1 == 001*/
+h1{
+    background-color: rgb(42, 165, 99);
+}
+/* a=0 b=1 c=0 == 010*/
+.title {
+    background-color: grey;
+}
+/* a=0 b=1 c=1 == 011*/
+h1.title {
+    background-color: rgb(235, 34, 208);
+}
+/* a=1 b=0 c=0 == 100*/
+#heading {
+    background-color: orange;
+}
+/* important == 1000*/
+h1{
+    background-color: rgb(61, 3, 3) !important;
+}
