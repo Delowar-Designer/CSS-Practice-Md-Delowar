@@ -1,0 +1,9 @@
+body{
+    background-color: antiquewhite;
+    background-image: url("Pancile.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+
+    background: #fff url("Pancile.png") no-repeat left;
+}
