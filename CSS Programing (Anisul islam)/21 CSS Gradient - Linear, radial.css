@@ -1,0 +1,12 @@
+.gradient-style1{
+    height: 400px;
+    width: 100%;
+    background-image: radial-gradient(circle, rgb(170, 89, 89),rgb(26, 238, 253),rgba(218, 218, 68, 0.516),rgb(255, 0, 149));
+}
+.gradient-style{
+    height: 400px;
+    width: 100%;
+    border-color: red;
+    border-style: dotted;
+    background-image: linear-gradient(to right, red,green,yellow,orange);
+}
